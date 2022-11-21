@@ -9,80 +9,38 @@ import java.util.Date;
 
 public class Epic extends Work {
     private String acceptanceCriteria;
-    private RelatedWork relatedWork;
     private DetailEpic detailEpic;
     private Status status;
-    public Epic(Long id, String title, String description, State state, Long userId, Long projectId, Date activityDate) {
-        super(id, title, description, state, userId, projectId, activityDate);
+
+    public Epic(Long id, String title, String description, State state, Long userId, Long projectId, Date activityDate,
+                RelatedWork relatedWork, String acceptanceCriteria, DetailEpic detailEpic, Status status) {
+        super(id, title, description, state, userId, projectId, activityDate, relatedWork);
+        this.acceptanceCriteria = acceptanceCriteria;
+        this.detailEpic = detailEpic;
+        this.status = status;
     }
 
-    @Override
-    public Long getId() {
-        return super.getId();
+    public String getAcceptanceCriteria() {
+        return acceptanceCriteria;
     }
 
-    @Override
-    public void setId(Long id) {
-        super.setId(id);
+    public void setAcceptanceCriteria(String acceptanceCriteria) {
+        this.acceptanceCriteria = acceptanceCriteria;
     }
 
-    @Override
-    public String getTitle() {
-        return super.getTitle();
+    public DetailEpic getDetailEpic() {
+        return detailEpic;
     }
 
-    @Override
-    public void setTitle(String title) {
-        super.setTitle(title);
+    public void setDetailEpic(DetailEpic detailEpic) {
+        this.detailEpic = detailEpic;
     }
 
-    @Override
-    public String getDescription() {
-        return super.getDescription();
+    public Status getStatus() {
+        return status;
     }
 
-    @Override
-    public void setDescription(String description) {
-        super.setDescription(description);
-    }
-
-    @Override
-    public State getState() {
-        return super.getState();
-    }
-
-    @Override
-    public void setState(State state) {
-        super.setState(state);
-    }
-
-    @Override
-    public Long getUserId() {
-        return super.getUserId();
-    }
-
-    @Override
-    public void setUserId(Long userId) {
-        super.setUserId(userId);
-    }
-
-    @Override
-    public Long getProjectId() {
-        return super.getProjectId();
-    }
-
-    @Override
-    public void setProjectId(Long projectId) {
-        super.setProjectId(projectId);
-    }
-
-    @Override
-    public Date getActivityDate() {
-        return super.getActivityDate();
-    }
-
-    @Override
-    public void setActivityDate(Date activityDate) {
-        super.setActivityDate(activityDate);
+    public void setStatus(Status status) {
+        this.status = status;
     }
 }

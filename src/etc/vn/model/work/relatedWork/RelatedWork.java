@@ -1,14 +1,16 @@
 package etc.vn.model.work.relatedWork;
 
+import etc.vn.model.work.work_item.Work;
+
 public class RelatedWork {
     private  Long id;
-    private  Long idParenWork;
-    private  Long idChildWork;
+    private Work parenWork;
+    private  Work childWork;
 
-    public RelatedWork(Long id, Long idParenWork, Long idChildWork) {
+    public RelatedWork(Long id, Work parenWork, Work childWork) {
         this.id = id;
-        this.idParenWork = idParenWork;
-        this.idChildWork = idChildWork;
+        this.parenWork = parenWork;
+        this.childWork = childWork;
     }
 
     public Long getId() {
@@ -19,19 +21,19 @@ public class RelatedWork {
         this.id = id;
     }
 
-    public Long getIdParenWork() {
-        return idParenWork;
+    public Work getParenWork() {
+        return parenWork;
     }
 
-    public void setIdParenWork(Long idParenWork) {
-        this.idParenWork = idParenWork;
+    public void setParenWork(Work parenWork) {
+        this.parenWork = parenWork;
     }
 
-    public Long getIdChildWork() {
-        return idChildWork;
+    public Work getChildWork() {
+        return childWork;
     }
 
-    public void setIdChildWork(Long idChildWork) {
-        this.idChildWork = idChildWork;
+    public void setChildWork(Work childWork) {
+        this.childWork = childWork;
     }
 }

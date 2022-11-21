@@ -1,6 +1,7 @@
 package etc.vn.model.work.work_item;
 
 import etc.vn.model.work.State;
+import etc.vn.model.work.relatedWork.RelatedWork;
 
 import java.util.Date;
 
@@ -12,8 +13,10 @@ public abstract class Work {
     private Long userId;
     private Long projectId;
     private Date activityDate;
+    private RelatedWork relatedWork;
 
-    public Work(Long id, String title, String description, State state, Long userId, Long projectId, Date activityDate) {
+    public Work(Long id, String title, String description, State state, Long userId, Long projectId,
+                Date activityDate, RelatedWork relatedWork) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -21,6 +24,15 @@ public abstract class Work {
         this.userId = userId;
         this.projectId = projectId;
         this.activityDate = activityDate;
+        this.relatedWork = relatedWork;
+    }
+
+    public RelatedWork getRelatedWork() {
+        return relatedWork;
+    }
+
+    public void setRelatedWork(RelatedWork relatedWork) {
+        this.relatedWork = relatedWork;
     }
 
     public Long getId() {

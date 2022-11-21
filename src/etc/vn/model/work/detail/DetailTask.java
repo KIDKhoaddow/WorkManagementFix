@@ -18,23 +18,4 @@ public class DetailTask extends Detail{
     public DetailTask(Long id, String priority) {
         super(id, priority);
     }
-    @Override
-    public Long getId() {
-        return super.getId();
-    }
-
-    @Override
-    public void setId(Long id) {
-        super.setId(id);
-    }
-
-    @Override
-    public String getPriority() {
-        return super.getPriority();
-    }
-
-    @Override
-    public void setPriority(String priority) {
-        super.setPriority(priority);
-    }
 }
