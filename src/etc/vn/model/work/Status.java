@@ -1,4 +1,4 @@
-package etc.vn.model;
+package etc.vn.model.work;
 
 import java.util.Date;
 

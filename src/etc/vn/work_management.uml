@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="680.5" y="171.0">etc.vn.model.work.detail.Detail</node>
+    <node x="25.5" y="-247.5">etc.vn.model.work.work_item.ProductBacklog</node>
+    <node x="673.0" y="389.5">etc.vn.model.user.Account</node>
+    <node x="325.0" y="193.0">etc.vn.model.work.detail.ValueArea</node>
+    <node x="28.5" y="-27.0">etc.vn.model.work.work_item.Work</node>
+    <node x="1178.0" y="72.0">etc.vn.model.work.work_item.Project</node>
+    <node x="410.5" y="-214.5">etc.vn.model.work.work_item.Task</node>
+    <node x="914.0" y="138.0">etc.vn.model.work.detail.DetailBusiness</node>
+    <node x="897.5" y="488.5">etc.vn.model.work.State</node>
+    <node x="689.5" y="29.0">etc.vn.model.work.detail.DetailProductBacklog</node>
+    <node x="926.5" y="-247.5">etc.vn.model.Status</node>
+    <node x="700.0" y="-258.5">etc.vn.model.work.Activity</node>
+    <node x="420.5" y="455.5">etc.vn.model.work.relatedWork.RelatedWork</node>
+    <node x="913.5" y="-6.0">etc.vn.model.work.detail.DetailEpic</node>
+    <node x="472.0" y="-16.5">etc.vn.model.work.detail.DetailTask</node>
+    <node x="-256.0" y="-280.5">etc.vn.model.work.work_item.Epic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="etc.vn.model.work.work_item.Epic" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="0.0" y="115.5" />
+      <point x="-141.0" y="253.5" />
+      <point x="-116.5" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailTask" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
+      <point x="0.0" y="60.0" />
+      <point x="554.5" y="253.5" />
+      <point x="-84.0" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailEpic" target="etc.vn.model.work.detail.DetailBusiness" relationship="GENERALIZATION">
+      <point x="0.0" y="49.5" />
+      <point x="0.0" y="-115.5" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.ProductBacklog" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="-44.0" y="82.5" />
+      <point x="0.0" y="-280.5" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailBusiness" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
+      <point x="-102.5" y="0.0" />
+      <point x="84.0" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Task" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="-58.5" y="49.5" />
+      <point x="454.5" y="96.0" />
+      <point x="116.5" y="-157.5" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailProductBacklog" target="etc.vn.model.work.detail.DetailBusiness" relationship="GENERALIZATION">
+      <point x="87.0" y="14.5" />
+      <point x="873.5" y="238.5" />
+      <point x="-102.5" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.768" showDependencies="false" x="669.6197916666662" y="187.59895833333326" />
+  <SelectedNodes>
+    <node>etc.vn.model.Status</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

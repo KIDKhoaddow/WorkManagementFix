@@ -1,6 +1,5 @@
 package etc.vn.model.work.work_item;
 
-import etc.vn.model.Status;
 import etc.vn.model.work.State;
 import etc.vn.model.work.detail.DetailProductBacklog;
 import etc.vn.model.work.relatedWork.RelatedWork;

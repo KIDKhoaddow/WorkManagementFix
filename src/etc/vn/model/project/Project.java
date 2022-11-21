@@ -1,4 +1,8 @@
-package etc.vn.model.work.work_item;
+package etc.vn.model.project;
+
+import etc.vn.model.user.Account;
+
+import java.util.List;
 
 public class Project {
     private Long id;
@@ -6,13 +10,15 @@ public class Project {
     private String description;
     private String avatar;
     private Long member;
+    private List<Account> accountList;
 
-    public Project(Long id, String name, String description, String avatar, Long member) {
+    public Project(Long id, String name, String description, String avatar, List<Account> accountList) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.avatar = avatar;
-        this.member = member;
+        this.member = 0L;
+        this.accountList = accountList;
     }
 
     public Project() {
@@ -51,10 +57,17 @@ public class Project {
     }
 
     public Long getMember() {
+        this.member=  Long.parseLong(String.valueOf( accountList.size()));
         return member;
     }
 
-    public void setMember(Long member) {
-        this.member = member;
+    public List<Account> getAccountList() {
+        return accountList;
+    }
+
+
+    public void setAccountList(List<Account> accountList) {
+
+        this.accountList = accountList;
     }
 }
