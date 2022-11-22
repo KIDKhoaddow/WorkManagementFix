@@ -1,0 +1,33 @@
+
+N
+src/etc/vn/workManagement.java,c\4\c4744cd396cb0c95bfb2c152d999328ce7010f21
+S
+#src/etc/vn/model/work/Activity.java,b\4\b411a901fcdf9aae062373b9289a43292f6c1352
+P
+ src/etc/vn/model/work/State.java,5\e\5ec921598b4e8ea25b5b90fb98c020a7d0740a9c
+\
+,src/etc/vn/model/work/detail/DetailEpic.java,2\b\2b3acfac4fcde0474317c721f8807ee7312fe9e0
+f
+6src/etc/vn/model/work/detail/DetailProductBacklog.java,3\3\335dbd5ea949fc256aaca7ccb8d252a9bb7f524d
+Y
+)src/etc/vn/model/work/work_item/Task.java,8\7\87cad18099d3212859f6c9ebc1f15210cb37404b
+X
+(src/etc/vn/model/work/detail/Detail.java,7\e\7ef0d614d1d47cd81b79cdb1cd8a83ca027a203c
+`
+0src/etc/vn/model/work/detail/DetailBusiness.java,b\9\b9fd5866c0bf32e6d20db925f029ddd65808b99d
+Y
+)src/etc/vn/model/work/work_item/Work.java,8\0\8063880123fbb194a569da73548357ebdf9608f2
+\
+,src/etc/vn/model/work/detail/DetailTask.java,2\5\25562d2941a18dba606d6f62a9bffbb77afd1f92
+O
+src/etc/vn/model/user/Role.java,f\6\f6dfc55a705117075b04845fa738c8c0c89281df
+[
++src/etc/vn/model/work/detail/ValueArea.java,6\c\6cad96a64a4cfe8a527dd26e62278de360c84207
+Y
+)src/etc/vn/model/work/work_item/Epic.java,4\7\47bc8b3774acbdb50ac52ddecc7eba8dbdbe0893
+c
+3src/etc/vn/model/work/work_item/ProductBacklog.java,5\4\546d99af758183295e0a082bc58a6138ccd80717
+Q
+!src/etc/vn/work_management.drawio,c\a\ca977e69c1894bd51362c2211020c0427aedcb95
+b
+2src/etc/vn/model/work/relatedWork/RelatedWork.java,a\e\ae3725abea8407ee6793b2ccec6ded2aa14c1110

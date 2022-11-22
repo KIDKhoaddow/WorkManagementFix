@@ -3,62 +3,107 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="680.5" y="171.0">etc.vn.model.work.detail.Detail</node>
-    <node x="25.5" y="-247.5">etc.vn.model.work.work_item.ProductBacklog</node>
-    <node x="673.0" y="389.5">etc.vn.model.user.Account</node>
-    <node x="325.0" y="193.0">etc.vn.model.work.detail.ValueArea</node>
-    <node x="28.5" y="-27.0">etc.vn.model.work.work_item.Work</node>
-    <node x="1178.0" y="72.0">etc.vn.model.work.work_item.Project</node>
-    <node x="410.5" y="-214.5">etc.vn.model.work.work_item.Task</node>
-    <node x="914.0" y="138.0">etc.vn.model.work.detail.DetailBusiness</node>
-    <node x="897.5" y="488.5">etc.vn.model.work.State</node>
-    <node x="689.5" y="29.0">etc.vn.model.work.detail.DetailProductBacklog</node>
-    <node x="926.5" y="-247.5">etc.vn.model.Status</node>
-    <node x="700.0" y="-258.5">etc.vn.model.work.Activity</node>
-    <node x="420.5" y="455.5">etc.vn.model.work.relatedWork.RelatedWork</node>
-    <node x="913.5" y="-6.0">etc.vn.model.work.detail.DetailEpic</node>
-    <node x="472.0" y="-16.5">etc.vn.model.work.detail.DetailTask</node>
-    <node x="-256.0" y="-280.5">etc.vn.model.work.work_item.Epic</node>
+    <node x="776.8264119327772" y="-220.3905896980367">etc.vn.model.work.work_item.Task</node>
+    <node x="661.8231652099341" y="200.70455395616972">etc.vn.model.work.State</node>
+    <node x="371.66420097336965" y="-310.21445929574816">etc.vn.model.work.work_item.ProductBacklog</node>
+    <node x="627.096304648461" y="521.8077785829507">etc.vn.model.work.relatedWork.RelatedWork</node>
+    <node x="492.20292434009895" y="-906.8751533344789">etc.vn.model.project.Project</node>
+    <node x="1501.6182829487516" y="87.52092437871082">etc.vn.model.work.detail.DetailBusiness</node>
+    <node x="1051.690544618276" y="-273.9078823920346">etc.vn.model.work.Activity</node>
+    <node x="1346.8776414505787" y="-30.274898953151137">etc.vn.model.work.detail.DetailProductBacklog</node>
+    <node x="328.74046327888396" y="-69.65604179138711">etc.vn.model.work.work_item.Work</node>
+    <node x="621.0824918220817" y="-49.40536592205871">etc.vn.model.work.detail.ValueArea</node>
+    <node x="39.41228485670405" y="-340.41660032116715">etc.vn.model.work.work_item.Epic</node>
+    <node x="1116.9472462866433" y="-10.737243360829893">etc.vn.model.work.detail.Detail</node>
+    <node x="880.5972090957772" y="-25.436338761701677">etc.vn.model.work.detail.DetailTask</node>
+    <node x="1762.5486726095858" y="-73.3853831363507">etc.vn.model.work.detail.DetailEpic</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="etc.vn.model.work.work_item.Epic" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
-      <point x="0.0" y="115.5" />
-      <point x="-141.0" y="253.5" />
-      <point x="-116.5" y="0.0" />
-    </edge>
-    <edge source="etc.vn.model.work.detail.DetailTask" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
-      <point x="0.0" y="60.0" />
-      <point x="554.5" y="253.5" />
-      <point x="-84.0" y="0.0" />
-    </edge>
-    <edge source="etc.vn.model.work.detail.DetailEpic" target="etc.vn.model.work.detail.DetailBusiness" relationship="GENERALIZATION">
-      <point x="0.0" y="49.5" />
-      <point x="0.0" y="-115.5" />
-    </edge>
-    <edge source="etc.vn.model.work.work_item.ProductBacklog" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
-      <point x="-44.0" y="82.5" />
-      <point x="0.0" y="-280.5" />
-    </edge>
-    <edge source="etc.vn.model.work.detail.DetailBusiness" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
-      <point x="-102.5" y="0.0" />
-      <point x="84.0" y="0.0" />
-    </edge>
-    <edge source="etc.vn.model.work.work_item.Task" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
-      <point x="-58.5" y="49.5" />
-      <point x="454.5" y="96.0" />
-      <point x="116.5" y="-157.5" />
+    <edge source="etc.vn.model.work.work_item.Task" target="etc.vn.model.work.detail.DetailTask" relationship="TO_ONE">
+      <point x="84.270797163" y="49.5" />
+      <point x="0.0" y="-60.0" />
     </edge>
     <edge source="etc.vn.model.work.detail.DetailProductBacklog" target="etc.vn.model.work.detail.DetailBusiness" relationship="GENERALIZATION">
-      <point x="87.0" y="14.5" />
-      <point x="873.5" y="238.5" />
-      <point x="-102.5" y="-15.0" />
+      <point x="97.00035854942121" y="-1.0104684884026938E-4" />
+      <point x="1735.0" y="-15.774999999999977" />
+      <point x="1735.0" y="203.02100000000002" />
+      <point x="101.99971705124835" y="7.562128918436883E-5" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailTask" target="etc.vn.model.work.Activity" relationship="TO_ONE">
+      <point x="82.5" y="-14.999661238298359" />
+      <point x="1067.0" y="19.563999999999965" />
+      <point x="-71.19054461827591" y="93.5" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Work" target="etc.vn.model.work.relatedWork.RelatedWork" relationship="TO_ONE">
+      <point x="0.0" y="280.5" />
+      <point x="444.74046327888396" y="637.3077785829507" />
+      <point x="-92.0" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.relatedWork.RelatedWork" target="etc.vn.model.work.work_item.Work" relationship="TO_ONE">
+      <point x="0.0" y="-115.5" />
+      <point x="719.096304648461" y="383.2045539561697" />
+      <point x="116.0" y="172.36059574755683" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Epic" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="114.49971514329596" y="-3.9967883287772565E-4" />
+      <point x="299.0" y="-224.91700000000003" />
+      <point x="299.0" y="210.844" />
+      <point x="-116.00046327888397" y="4.179138710469488E-5" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailTask" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
+      <point x="82.49979090422278" y="3.387617016414879E-4" />
+      <point x="1082.0" y="34.563999999999965" />
+      <point x="1082.0" y="71.763" />
+      <point x="-83.50024628664346" y="2.4336082989862007E-4" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailEpic" target="etc.vn.model.work.detail.DetailBusiness" relationship="GENERALIZATION">
+      <point x="-102.49967260958579" y="3.8313635070608143E-4" />
+      <point x="1735.0" y="-23.88499999999999" />
+      <point x="1735.0" y="203.02100000000002" />
+      <point x="101.99971705124835" y="7.562128918436883E-5" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.ProductBacklog" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="-163.00020097336966" y="4.5929574810088525E-4" />
+      <point x="299.0" y="-227.71400000000006" />
+      <point x="299.0" y="210.844" />
+      <point x="-116.00046327888397" y="4.179138710469488E-5" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailBusiness" target="etc.vn.model.work.detail.Detail" relationship="GENERALIZATION">
+      <point x="-102.00028294875165" y="7.562128918436883E-5" />
+      <point x="1082.0" y="203.02100000000002" />
+      <point x="1082.0" y="71.763" />
+      <point x="-83.50024628664346" y="2.4336082989862007E-4" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.ProductBacklog" target="etc.vn.model.work.detail.DetailProductBacklog" relationship="TO_ONE">
+      <point x="163.0" y="-63.69342309628644" />
+      <point x="1443.8776414505787" y="-291.4078823920346" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Task" target="etc.vn.model.work.work_item.Work" relationship="GENERALIZATION">
+      <point x="-102.00041193277718" y="43.17658969803671" />
+      <point x="299.0" y="-127.714" />
+      <point x="299.0" y="210.844" />
+      <point x="-116.00046327888397" y="4.179138710469488E-5" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Work" target="etc.vn.model.work.State" relationship="TO_ONE">
+      <point x="116.0" y="72.36059574755683" />
+      <point x="-79.5" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.detail.DetailBusiness" target="etc.vn.model.work.detail.ValueArea" relationship="TO_ONE">
+      <point x="-102.0" y="15.000075621289184" />
+      <point x="853.3231652099341" y="218.02100000000002" />
+      <point x="853.3231652099341" y="11.094634077941294" />
+      <point x="92.99999999999994" y="0.0" />
+    </edge>
+    <edge source="etc.vn.model.work.work_item.Epic" target="etc.vn.model.work.detail.DetailEpic" relationship="TO_ONE">
+      <point x="114.5" y="-102.797858974581" />
+      <point x="1865.0486726095858" y="-327.71445929574816" />
+      <point x="0.0" y="-49.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Compact" zoom="0.768" showDependencies="false" x="669.6197916666662" y="187.59895833333326" />
-  <SelectedNodes>
-    <node>etc.vn.model.Status</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Compact" zoom="1.2860979352678572" showDependencies="true" x="620.6738576271184" y="-486.93600000000004" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
